@@ -13,22 +13,18 @@ body{
     width: 80%;
     margin: auto;
 }
+/****** inizio header/nav*******/
 
 header{
     /*height: 150px;*/
     padding: 50px 0;
     width: 100%;
-    background-color: yellow;
-    float: left;
-    margin: auto;
     text-align: center;
     color: white;
     background-image: url(https://organicthemes.com/demo/natural-lite/wp-content/themes/natural-lite/images/default-header.jpg);
     border: solid white 10px;
     background-size: cover;
-
-
-
+    
 }
 
 h1{
@@ -43,6 +39,42 @@ h2{
     font-weight: normal;
 }
 
+nav{
+    /*height: 100px;*/
+    width: 100%;
+    background-color: #504741;;
+    float: left;
+    margin-bottom: 10px;
+}
+
+nav ul{
+    text-align: center;
+    margin: auto;
+
+}
+nav li{
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 10px;
+
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 10px;
+}
+
+nav a.dropdown::after{
+    content:" ▾ ";
+}
+nav li:hover{
+    background-color: #D2B48C;
+}
+
+/******* fine header/nav*******/
 
 aside.left{
     /*height: 100px;*/
