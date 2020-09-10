@@ -6,12 +6,12 @@
 
 body{
     background-image: url("https://organicthemes.com/demo/natural-lite/wp-content/themes/natural-lite/images/default-pattern.png");
-    font-family: sans-serif;
 }
 
 .container{
     width: 80%;
     margin: auto;
+    font-family: sans-serif;
 }
 /****** inizio header/nav*******/
 
@@ -24,15 +24,12 @@ header{
     background-image: url(https://organicthemes.com/demo/natural-lite/wp-content/themes/natural-lite/images/default-header.jpg);
     border: solid white 10px;
     background-size: cover;
-
 }
 
 h1{
     text-transform: uppercase;
-    font-size: 30px;
+    font-size: 40px;
     margin-bottom: 30px;
-
-
 }
 h2{
     font-size: 20px;
@@ -45,7 +42,7 @@ nav{
     width: 100%;
     background-color: #504741;;
     float: left;
-    margin-bottom: 10px;
+    /*margin-bottom: 10px;*/
 }
 
 nav ul{
@@ -53,29 +50,27 @@ nav ul{
     margin: auto;
 
 }
+
 nav li{
     display: inline-block;
-
-
-
 }
 
 nav a{
     text-decoration: none;
     color: white;
     text-transform: uppercase;
-    font-size: 10px;
+    font-size: 12px;
     padding: 50px 10px;
     height: 50px;
     line-height: 50px;
-
 }
 
 nav a.dropdown::after{
     content:" ▾ ";
 }
+
 nav li:hover{
-    background-color: #D2B48C;
+    background-color: #8B4513;
 }
 
 /******* fine header/nav*******/
@@ -84,78 +79,147 @@ aside.left{
     /*height: 100px;*/
     width: 25%;
     float: left;
-    margin-top: 10px;
-    background-color: white;
     border-radius: 2px;
+    margin-right: 10px;
+}
+
+div.box-left{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: white;
     box-shadow: 0px 0px 4px rgba(0, 0, 0, .24);
-
-
-
 }
 
 h4{
     font-weight: normal;
     font-size: 15px;
-    padding-left: auto;
-    padding-left: 20px;
+    padding-left: 10px;
+    padding-top: 20px;
     color: #504741;
-
+    margin: 0px;
 }
 
 aside ul{
     list-style-type: none;
-
-
-
+    padding: 20px;
+    margin: 0px;
 }
 
-aside a{
+aside.left a{
     text-decoration: none;
     color: #99cc33;
     font-size: 10px;
-    padding-left: auto;
+    padding-top: 8px;
+    padding-bottom: 8px;
     padding-right: 40px;
+    margin: auto;
     height: 50px;
-
-
-
-
 }
 
 aside a:hover{
     background-color: #FFFAF0;
     box-shadow: 0px 2px 1px rgba(0, 0, 0, .24)
-
-
 }
 
 main{
     /*height: 300px;*/
-    width: 50%;
-    background-color: purple;
+    width: calc(50% - 20px);
+    background-color: white;
     float: left;
     margin-top: 10px;
+}
+
+h3{
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: normal;
+    color: #504741;
+    padding: 10px;
+    margin: 0px;
+}
+
+main p{
+    padding: 0px 10px;
+}
+
+main a{
+    text-decoration: none;
+    font-size: 15px;
+    color: #99cc33;
+}
+
+main img{
+    width: 100%;
+}
+
+.data{
+    font-size: 10px;
+}
+#text{
+    padding-bottom: 20px;
+}
+
+#rif-text{
+    background-color: lightgrey;
+    padding: 10px;
     margin-left: 10px;
     margin-right: 10px;
 }
 
+
 aside.right{
-    width: calc(25% - 20px);
+    width: 25%;
     margin-top: 10px;
     float: left;
     margin-top: 10px;
+    margin-left: 10px;
 }
 
 aside .box{
-    background-color: pink;
+    background-color: white;
     /*height: 100px;*/
     margin-bottom: 10px;
+}
+
+.search{
+    width: 70%;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+button{
+    width: calc(30% - 10px);
+    background-color: #504741;
+    border-radius: 5px;
+    color: white;
+
+}
+
+.link-list{
+    padding-left: 10px;
+    padding-bottom: 10px;
+
+}
+.link-list a{
+    font-size: 10px;
+    text-decoration: none;
+    color: #99cc33;
+}
+
+a.big{
+    font-size: 20px;
+}
+
+a.medium{
+    font-size: 15px;
 }
 
 footer{
     /*height: 50px;*/
     width: 100%;
-    background-color: lightblue;
+    background-color: white;
     float: left;
     margin: auto;
+    font-size: 10px;
+    padding: 10px;
 }
